@@ -1,0 +1,81 @@
+.TrackNav{
+    background-color: #181818;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+
+    
+    justify-content: space-between;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+    
+}
+
+.TrackNav > div > img.imageActuallyTrack{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+}
+
+.infoActualTrack{
+    display: flex;
+     
+}
+
+.infoActualTrack > .textActuallyArtist{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    justify-content: center;
+    
+}
+
+.infoActualTrack > .textActuallyArtist > .ArtistActually{
+    display: flex;
+}
+
+.controlsMusic{
+    width: 40vw;    
+    height: 100%; 
+}
+
+.timelapse{
+    width: 40vw;
+    background-color: #5e5e5e;
+    height: 7px;
+    border-radius: 20px;
+    position: fixed;
+    
+}
+
+.timelapse > .progreso{
+    height: 7px;
+    border-radius: 20px;
+    background-color: white;
+    width: 1px;
+}
+
+.extras{
+    width: 8vw;
+
+    background-color: lightcoral;
+}
+
+.controlsMusic > .controlButtons{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.controlsMusic > .controlButtons > .buttonMain{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin:0px 20px; 
+     
+    
+}
+

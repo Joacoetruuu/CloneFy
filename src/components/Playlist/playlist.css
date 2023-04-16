@@ -1,0 +1,69 @@
+.mainPlaylistData{
+    position: fixed;
+
+    width: 99vw;
+
+    background: rgba(7, 7, 7, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    
+    max-height: 220px;
+    display: flex;
+    
+}
+.mainPlaylistData > img {
+    max-height: 200px;
+    margin: 20px;
+    margin-left: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.mainPlaylistData > div > h1{
+    margin: 20px auto
+}
+
+.playlistTracks{
+    height: 80vh;
+    width: 100vw;
+    
+}
+
+.playlistTracks{
+    
+    z-index: 2;
+    display: flex;
+    margin-left: 30vh;
+    padding-top: 30vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.playlistTracks > div {
+    display: flex;
+    margin: 20px;
+}
+
+.playlistTracks > div > img{
+    padding: 0px 20px;
+}
+
+.trackInPlaylist{
+    
+    align-content: center;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.trackInPlaylist:hover{
+    background-color: rgb(197, 189, 189, 0.1);
+    transition: all .3s;
+}
+
+.trackInPlaylist:not(:hover){
+
+    transition: all .3s;
+}
