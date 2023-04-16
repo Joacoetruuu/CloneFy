@@ -1,7 +1,7 @@
 {
     "clientId": "e649c78bd88d4582baf132dd83005e52",
     "responseTpye":"token",
-    "redirectURL" :"http://localhost:5173/home",
+    "redirectURL" :"https://clone-fy.vercel.app/home",
     "scope": "user-read-private%20user-read-email%20user-read-playback-state%20user-modify-playback-state%20user-read-currently-playing%20app-remote-control%20playlist-read-private%20playlist-read-collaborative%20user-read-playback-position%20user-top-read%20user-read-recently-played%20"
 
 }
